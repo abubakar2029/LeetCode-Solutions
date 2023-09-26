@@ -32,6 +32,8 @@ class LinkedList {
 }
 
 let aho = new LinkedList;
-aho.insertFirst(22)
+// aho.insertFirst(22)
 aho.insertFirst(23)
 aho.printListData()
+console.log(aho.head);
+console.log(aho.size);
