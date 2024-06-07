@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+public class _1672RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
         ArrayList<Integer> allCustomerData = new ArrayList<>();
 
@@ -24,7 +24,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        _1672RichestCustomerWealth solution = new _1672RichestCustomerWealth();
 
         int[][] accounts = { { 1, 2, 3 }, { 3, 2, 1 } };
         System.out.println("The max wealth is : " + solution.maximumWealth(accounts));

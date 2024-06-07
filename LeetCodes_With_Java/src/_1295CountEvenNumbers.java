@@ -1,4 +1,4 @@
-class Solution {
+public class _1295CountEvenNumbers {
     public int findNumbers(int[] nums) {
         int evenCount = 0;
 

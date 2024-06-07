@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class Swap {
     public static void swap(int[] array, int first, int second) {
         int temp = array[first];
